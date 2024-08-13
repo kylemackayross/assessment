@@ -58,7 +58,7 @@
                 let dataLayerValue = '';
 
                 window.dataLayer.forEach(function(item) {
-                    if (item.event === 'queryParams') {
+                    if (item.event === 'PushParams') {
                         dataLayerKey = item.key;
                         dataLayerValue = item.value;
                     }
